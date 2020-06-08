@@ -69,11 +69,13 @@
 .search{
 	width: 250px;
 	margin-right: 0px;
-	padding:0px;
+	padding:0px 10px;
 }
 .search-icon{
 	margin-left: 0;
-
+	/*transform: translateX(-1px);*/
+	height: auto;
+	
 }
 .login{
 	display: flex;
@@ -128,5 +130,11 @@
 	width: 30px;
 	height: 30px;
 	border-radius: 3px;
+
+}
+
+.input-group{
+	    display: flex;
+    height: max-content;
 
 }
