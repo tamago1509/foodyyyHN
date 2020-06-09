@@ -161,17 +161,18 @@
 						<li><a href="#">Vege</a></li>
 						<li><a href="#">Cake</a></li>
 						<li><a href="#">Dessert</a></li>
-						<li ><a class="show-more" href="#">Xem thêm <i class="fas fa-chevron-down"></i></a>
-							<ul class="list-category">
-								<li><a href="#">Homemade</a></li>
-								<li><a href="#">Streetfood</a></li>
-								<li><a href="#">Pizza/Buger</a></li>
-								<li><a href="#">Chicken</a></li>
-								<li><a href="#">Hotpot</a></li>
-								<li><a href="#">Sushi</a></li>
-								<li><a href="#">Noodles</a></li>
-								<li><a href="#">Rice box</a></li>
-							</ul>
+						<li >
+							<select class= "show-more" name="show-more" id="xem-them">
+									<option value="none">Xem thêm</option>
+									<option value="none">Homemade</option>
+									<option value="none">Streetfood</option>
+									<option value="none">Pizza/Buger</option>
+									<option value="none">Chicken</option>
+									<option value="none">Hotpot</option>
+									<option value="none">Sushi</option>
+									<option value="none">Noodles</option>
+									<option value="none">Rice box</option>
+							</select>
 						</li>
 					</ul>
 				</div>
@@ -299,6 +300,726 @@
 			</div>
 	</div>
 	
+	<!-- end today deal -->
+	<!-- start deal ưu đãi -->
+	<div class="deliver-wrapper">
+			<div class="nav-menu2">
+				<div class="avatar">
+					<img src="https://i1.wp.com/loayhoay.vn/wp-content/uploads/2019/01/now.png?fit=1200%2C630&ssl=1" alt="logo">
+				</div>
+				<div class="message">Ưu đãi đặt bàn</div>
+				<div class="uu-dai">
+					<select class="danh-muc" name="danh-muc" id="danhMuc">
+						<option value="none">Tìm danh mục</option>
+						<option value="none">Buffet</option>
+						<option value="none">Sinh nhật</option>
+						<option value="none">Sushi</option>
+						<option value="none">Dimsum</option>
+						<option value="none">Món Hoa</option>
+						<option value="none">Món Nhật</option>
+						<option value="none">Món Hàn</option>
+						<option value="none">Món Thái</option>
+						<option value="none"></option>
+						<option value="none">Món Âu Mỹ</option>
+						<option value="none">Món Việt</option>
+						<option value="none">Món Ấn</option>
+						<option value="none">Hải Sản</option>
+						<option value="none">Beer/Bar</option>
+						<option value="none">Pizza</option>
+						<option value="none">Kem</option>
+						<option value="none">Cafe</option>
+						<option value="none">Khách Sạn</option>
+						<option value="none">Spa</option>
+					</select>
+
+					<select class= "noi-bat" name="noi-bat" id="noiBat">
+						<option value="none">Nổi bật</option>
+						<option value="none">Đặt nhiều</option>
+						<option value="none">Mới</option>
+						<option value="none">Gần tôi</option>
+					</select>
+				</div>
+			</div>
+			<div class="dish">
+				<div class="dish-wrapper">
+					<div class="dish-img">
+						<a href="https://www.now.vn/ha-noi/bep-co-huong-com-van-phong">
+							<img src="https://images.foody.vn/res/g97/966852/prof/s1242x600/foody-upload-api-foody-mobile-seatalk_img_15900428-200521141301.jpg" alt="Khuê Restaurant - Nguyễn Trường Tộ">
+							</a>
+							<a class= "dish-info" href="#">
+								<span class="dish-name">Khuê Restaurant - Nguyễn Trường Tộ</span><br>
+								<span class="dish-address">9 Ngõ 95 Nguyễn Trãi, Quận...</span>
+							</a>
+					</div>
+					<div class="dish-tag">
+						<i class="fas fa-tag"></i>
+						<span class="cate">Cả ngày - Giảm 30%</span><br>
+						<p>Xem thêm 1 ưu đãi khác...</p>
+					</div>
+				</div>
+				
+				<div class="dish-wrapper">
+					<div class="dish-img">
+						<a href="https://www.now.vn/ha-noi/table/food-house-com-ki-nuong-lau">
+							<img src="https://images.foody.vn/res/g27/262468/prof/s1242x600/foody-upload-api-foody-mobile-ava1-190607092305.jpg" alt="Food House - Vua Lẩu Thái - Thái Hà">
+							</a>
+							<a class= "dish-info" href="#">
+								<span class="dish-name">Food House - Vua Lẩu Thái - Thái Hà</span><br>
+								<span class="dish-address">2 Ngõ 495 Nguyễn Trãi, Quận ...</span>
+							</a>
+					</div>
+					<div class="dish-tag">
+						<i class="fas fa-tag"></i>
+						<span class="cate">Cả ngày - Giảm 21%</span><br>
+						<p>Xem thêm 5 ưu đãi khác...</p>
+					</div>
+				</div>
+
+				<div class="dish-wrapper">
+					<div class="dish-img">
+						<a href="https://www.now.vn/ha-noi/bep-co-huong-com-van-phong">
+							<img src="https://images.foody.vn/res/g75/749760/prof/s1242x600/foody-upload-api-foody-mobile-avar32-190704094122.jpg" alt="Koh Yam - Thai Kitchen & Dessert - Thái Hà">
+							</a>
+							<a class= "dish-info" href="#">
+								<span class="dish-name">Koh Yam - Thai Kitchen & Dessert - Thái Hà</span><br>
+								<span class="dish-address">330 Thái Hà, Quận Đống Đa, Hà Nội</span>
+							</a>
+					</div>
+					<div class="dish-tag">
+						<i class="fas fa-tag"></i>
+						<span class="cate">Ăn tối - Giảm 15%</span><br>
+						<p>Xem thêm 3 ưu đãi khác...</p>
+					</div>
+				</div>
+
+				<div class="dish-wrapper">
+					<div class="dish-img">
+						<a href="https://www.now.vn/ha-noi/table/koh-yam-thai-kitchen-dessert">
+							<img src="https://images.foody.vn/res/g12/117880/prof/s1242x600/foody-mobile-koh-jpg-749-636197529514942659.jpg" alt="Koh Yam - Thai Kitchen & Dessert - Quang Trung">
+							</a>
+							<a class= "dish-info" href="#">
+								<span class="dish-name">Koh Yam - Thai Kitchen & Dessert - Quang Trung</span><br>
+								<span class="dish-address">34A Quang Trung, Quận Hoàn ...</span>
+							</a>
+					</div>
+					<div class="dish-tag">
+						<i class="fas fa-tag"></i>
+						<span class="cate">Ăn tối - Giảm 15%</span><br>
+						<p>Xem thêm 3 ưu đãi khác...</p>
+					</div>
+				</div>
+
+				<div class="dish-wrapper">
+					<div class="dish-img">
+						<a href="https://www.now.vn/ha-noi/table/d-maris-buffet-cao-cap-mipec-tay-son">
+							<img src="https://images.foody.vn/res/g87/863819/prof/s1242x600/foody-upload-api-foody-mobile-f-jpg-181213100801.jpg" alt="Khuê Restaurant - Nguyễn Trường Tộ">
+							</a>
+							<a class= "dish-info" href="#">
+								<span class="dish-name">D'Maris - Buffet Cao Cấp - Mipec Tây Sơn</span><br>
+								<span class="dish-address">Tầng 3 Lotte Mart, Mipec Tower...</span>
+							</a>
+					</div>
+					<div class="dish-tag">
+						<i class="fas fa-tag"></i>
+						<span class="cate">Cả ngày - Giảm 20%</span><br>
+						<p>Xem thêm 2 ưu đãi khác...</p>
+					</div>
+				</div>
+
+				<div class="dish-wrapper">
+					<div class="dish-img">
+						<a href="https://www.now.vn/ha-noi/table/chai-talay-thai-restaurant">
+							<img src="https://images.foody.vn/res/g28/279599/prof/s1242x600/foody-mobile-foody-mobile-thai-2--770-636371117737081773.jpg" alt="Khuê Restaurant - Nguyễn Trường Tộ">
+							</a>
+							<a class= "dish-info" href="#">
+								<span class="dish-name">Chai Talay - Thai Restaurant-Món cay</span><br>
+								<span class="dish-address">474 Xã Đàn, Quận Đống Đa, Hà Nội</span>
+							</a>
+					</div>
+					<div class="dish-tag">
+						<i class="fas fa-tag"></i>
+						<span class="cate">Cả ngày - Giảm 10%</span><br>
+						<p>Xem thêm 2 ưu đãi khác...</p>
+					</div>
+				</div>
+
+				<div class="dish-wrapper">
+					<div class="dish-img">
+						<a href="https://www.now.vn/ha-noi/bep-co-huong-com-van-phong">
+							<img src="https://images.foody.vn/res/g71/702703/prof/s1242x600/foody-upload-api-foody-mobile-laaur-190523152410.jpg" alt="Xuýt Xoa Xì Xụp - Lẩu & Chảo - Đặng Tiến Đông">
+							</a>
+							<a class= "dish-info" href="#">
+								<span class="dish-name">Xuýt Xoa Xì Xụp - Lẩu & Chảo - Đặng Tiến Đông</span><br>
+								<span class="dish-address">284 Đặng Tiến Đông, Quận Đống...</span>
+							</a>
+					</div>
+					<div class="dish-tag">
+						<i class="fas fa-tag"></i>
+						<span class="cate">Ăn xế - Giảm 13% ~ 23%</span><br>
+						<p>Xem thêm 2 ưu đãi khác...</p>
+					</div>
+				</div>
+
+				<div class="dish-wrapper">
+					<div class="dish-img">
+						<a href="https://www.now.vn/ha-noi/bep-co-huong-com-van-phong">
+							<img src="https://images.foody.vn/res/g97/966852/prof/s1242x600/foody-upload-api-foody-mobile-seatalk_img_15900428-200521141301.jpg" alt="Vua Chả Cá - Giảng Võ">
+							</a>
+							<a class= "dish-info" href="#">
+								<span class="dish-name">Vua Chả Cá - Giảng Võ,Đống Đa</span><br>
+								<span class="dish-address">269 Giảng Võ, Quận Đống Đa...</span>
+							</a>
+					</div>
+					<div class="dish-tag">
+						<i class="fas fa-tag"></i>
+						<span class="cate">Cả ngày - Giảm 50%</span><br>
+						<p>Xem thêm 4 ưu đãi khác...</p>
+					</div>
+				</div>
+
+				<div class="dish-wrapper">
+					<div class="dish-img">
+						<a href="https://www.now.vn/ha-noi/bep-co-huong-com-van-phong">
+							<img src="https://images.foody.vn/res/g1/8934/prof/s1242x600/foody-upload-api-foody-mobile-a1b33b5c-210a-4a82-8-200414091303.jpg" alt="Khuê Restaurant - Nguyễn Trường Tộ">
+							</a>
+							<a class= "dish-info" href="#">
+								<span class="dish-name">Botanica - Salad, Steak & Pasta - Thái Phiên</span><br>
+								<span class="dish-address">3 Thái Phiên, Quận Hai Bà ...</span>
+							</a>
+					</div>
+					<div class="dish-tag">
+						<i class="fas fa-tag"></i>
+						<span class="cate">Cả ngày - Giảm 10%</span><br>
+						<p>Xem thêm 1 ưu đãi khác...</p>
+					</div>
+				</div>
+
+				<div class="dish-wrapper">
+					<div class="dish-img">
+						<a href="https://www.now.vn/ha-noi/bep-co-huong-com-van-phong">
+							<img src="https://images.foody.vn/res/g66/654437/prof/s1242x600/foody-upload-api-foody-mobile-suon-10-jpg-181121104208.jpg" alt="Khuê Restaurant - Nguyễn Trường Tộ">
+							</a>
+							<a class= "dish-info" href="#">
+								<span class="dish-name">Sườn Mười - Sườn Nướng BBQ-Salad</span><br>
+								<span class="dish-address">264 Hoàng Văn Thái, Quận Than...</span>
+							</a>
+					</div>
+					<div class="dish-tag">
+						<i class="fas fa-tag"></i>
+						<span class="cate">Cả ngày - Giảm 20%</span><br>
+						<p>Xem thêm 1 ưu đãi khác...</p>
+					</div>
+				</div>
+				
+			</div>
+	</div>
+	<!-- start discovery -->
+	<div class="discovery-wrapper">
+		<div class="left-nav">
+			<div class="kham-pha">
+				<div class="first">
+				<a href="#"><img src="https://images.foody.vn/images/blogs/unnamed(1).png" alt="F"></a><span>Khám phá</span>
+				</div>
+				<a href="#"><span>Ở đâu</span><i class="fas fa-chevron-right"></i></a>
+				<a href="#"><span>Đặt bàn</span><i class="fas fa-chevron-right"></i></a>
+				<a href="#"><span>Giao hàng</span><i class="fas fa-chevron-right"></i></a>
+				<a href="#"><span>Ăn gì</span><i class="fas fa-chevron-right"></i></a>
+				<a href="#"><span>Sưu tập</span><i class="fas fa-chevron-right"></i></a>
+				<a href="#"><span>TV</span><i class="fas fa-chevron-right"></i></a>
+				<a href="#"><span>Bình luận</span><i class="fas fa-chevron-right"></i></a>
+				<a href="#"><span>Blogs</span><i class="fas fa-chevron-right"></i></a>
+				<a href="#"><span>Khuyến mãi</span><i class="fas fa-chevron-right"></i></a>
+			</div>
+		</div>
+		<div class="x-nav">
+			<div class="cover active"><a href="#">Mới nhất</a></div>
+			<div class="cover"><a href="#">Lượt xem</a></div>
+			<div class="cover"><a href="#">Phổ biến</a></div>
+			<div class="cover"><a href="#">Đã lưu</a></div>
+		</div>
+		<div class="main-dish">
+			<div class="dish-collect">
+				<div class="dish-photo">
+					<img src="https://images.foody.vn/res/g3/26899/s400x400/foody-pho-lam-nam-ngu-1c0a271e-d5f0-4707-8737-ee828e62d7da-635293935809301250.jpg" alt="Phở Lâm- Nam Ngư">
+				</div>
+				<div class="ranking">
+					<div class="circle">6.7</div>
+				 <div class="dish-title">
+				 	<span class="d-name">Phở Lâm -Nam Ngư</span>
+				 	<p class="addr">7 Nam Ngư, Quận Hoàn Kiếm</p>
+				 </div>
+				</div>
+				<div class="user">
+					<div class="circle">
+						<i class="far fa-user-circle"></i>
+					</div>
+					<div class="user-name">Hữu Duy</div>
+					<div class="user-like">Phở gà</div>
+				</div>
+			</div>
+
+			<div class="dish-collect">
+				<div class="dish-photo">
+					<img src="https://images.foody.vn/res/g89/886355/s400x400/foody-beominhon-shop-socola-online-239-636855007975846714.jpg" alt="Beominhon Shop - Socola Online">
+				</div>
+				<div class="ranking">
+					<div class="circle">8.2</div>
+				 <div class="dish-title">
+				 	<span class="d-name">Beominhon Shop - Socola Online</span>
+				 	<p class="addr">C4A 96 Định Công</p>
+				 </div>
+				</div>
+				<div class="user">
+					<div class="circle">
+						<img src="https://images.foody.vn/usr/g14/135451/avt/s60x60/t-pisces-avatar-590-636550692593609309.jpg" alt="user">
+					</div>
+					<div class="user-name">Thạnh</div>
+					<div class="user-like">Mochi</div>
+				</div>
+			</div>
+
+			<div class="dish-collect">
+				<div class="dish-photo">
+					<img src="https://images.foody.vn/res/g69/684494/s400x400/foody-che-ngon-vy-vy-228-636397219460750927.jpg" alt="Chè Ngon Vy Vy">
+				</div>
+				<div class="ranking">
+					<div class="circle">8.0</div>
+				 <div class="dish-title">
+				 	<span class="d-name">Chè Ngon Vy Vy</span>
+				 	<p class="addr">40 Ngõ 71 Hoàng Văn Thái, Qu</p>
+				 </div>
+				</div>
+				<div class="user">
+					<div class="circle">
+						<img src="https://images.foody.vn/usr/g200/1993953/avt/s60x60/beauty-upload-api-foody-avatar-47fc2e46-f3ee-4eb0-a32e-73a82f0eca38-191116101325.jpg">
+					</div>
+					<div class="user-name">Ngọc Anh</div>
+					<div class="user-like"> Caramen</div>
+				</div>
+			</div>
+
+			<div class="dish-collect">
+				<div class="dish-photo">
+					<img src="https://images.foody.vn/res/g22/215797/s400x400/foody-bun-pho-bo-ga-vu-ngoc-phan-386-636578445518430413.jpg">
+				</div>
+				<div class="ranking">
+					<div class="circle">7.4</div>
+				 <div class="dish-title">
+				 	<span class="d-name">Phở Lâm -Nam Ngư</span>
+				 	<p class="addr">1A Vũ Ngọc Phan, Quận Đốn</p>
+				 </div>
+				</div>
+				<div class="user">
+					<div class="circle">
+						<img src="https://images.foody.vn/usr/g132/1312074/avt/s60x60/lyk_b-avatar-365-637188297187170856.jpg">
+					</div>
+					<div class="user-name">Mai Linh</div>
+					<div class="user-like">Phở bò</div>
+				</div>
+			</div>
+
+			<div class="dish-collect">
+				<div class="dish-photo">
+					<img src="https://images.foody.vn/res/g71/706025/s400x400/foody-pop-quan-chan-ga-canh-ga-nuong-tay-son-973-636578303428090393.jpg" alt="Pop Quán - Chân Gà &">
+				</div>
+				<div class="ranking">
+					<div class="circle">6.9</div>
+				 <div class="dish-title">
+				 	<span class="d-name">Pop Quán - Chân Gà &</span>
+				 	<p class="addr">12 Ngõ 298 Tây Sơn, Quận Đố</p>
+				 </div>
+				</div>
+				<div class="user">
+					<div class="circle">
+						<img src="https://images.foody.vn/usr/g191/1900457/avt/s60x60/thanhha-le162-avatar-379-636307020305685358.jpg">
+					</div>
+					<div class="user-name">Siêu nhân</div>
+					<div class="user-like">Chân gà nướng</div>
+				</div>
+			</div>
+
+			<div class="dish-collect">
+				<div class="dish-photo">
+					<img src="https://images.foody.vn/res/g26/257667/s400x400/foody-mamma-mia-italian-restaurant-bar-837-636523410817622168.jpg" alt="Mamma Mia - Italian Restaurant">
+				</div>
+				<div class="ranking">
+					<div class="circle">7.9</div>
+				 <div class="dish-title">
+				 	<span class="d-name">Mamma Mia - Italian Res</span>
+				 	<p class="addr">2 Chương Dương Độ, Quận Ho...</p>
+				 </div>
+				</div>
+				<div class="user">
+					<div class="circle">
+						<img src="https://images.foody.vn/usr/g13/123423/avt/s60x60/foody-avatar-703-635571388702164431.jpg">
+					</div>
+					<div class="user-name">Khánh</div>
+					<div class="user-like">Pizza 1 mét</div>
+				</div>
+			</div>
+
+			<div class="dish-collect">
+				<div class="dish-photo">
+					<img src="https://images.foody.vn/res/g8/70619/s400x400/foody-chez-moi-755-635714841935764688.jpg" alt="Chez Moi - Bánh Ngọt P">
+				</div>
+				<div class="ranking">
+					<div class="circle">7.5</div>
+				 <div class="dish-title">
+				 	<span class="d-name">Chez Moi - Bánh Ngọt P</span>
+				 	<p class="addr">99 Quán Thánh, Quận Ba Đình</p>
+				 </div>
+				</div>
+				<div class="user">
+					<div class="circle">
+						<img src="https://images.foody.vn/usr/g10/95049/avt/s60x60/copy%20(4)%20of%20img_0160_635281863304116250.jpg">
+					</div>
+					<div class="user-name">Tho</div>
+					<div class="user-like">Macarons</div>
+				</div>
+			</div>
+
+			<div class="dish-collect">
+				<div class="dish-photo">
+					<img src="https://images.foody.vn/res/g3/29544/s400x400/foody-nom-mai-nga-ham-long-789-636549732591690255.jpg" alt="Phở Lâm- Nam Ngư">
+				</div>
+				<div class="ranking">
+					<div class="circle">6.7</div>
+				 <div class="dish-title">
+				 	<span class="d-name">Nộm Mai Nga - Hàm Long</span>
+				 	<p class="addr">7 Ngõ Hàm Long 1</p>
+				 </div>
+				</div>
+				<div class="user">
+					<div class="circle">
+						<img src="https://images.foody.vn/usr/g170/1696355/avt/s60x60/teamy-dbsk-avatar-464-636488023922261075.jpg">
+					</div>
+					<div class="user-name">My</div>
+					<div class="user-like">Nộm lọc</div>
+				</div>
+			</div>
+
+			<div class="dish-collect">
+				<div class="dish-photo">
+					<img src="https://images.foody.vn/res/g3/26899/s400x400/foody-pho-lam-nam-ngu-1c0a271e-d5f0-4707-8737-ee828e62d7da-635293935809301250.jpg" alt="Phở Lâm- Nam Ngư">
+				</div>
+				<div class="ranking">
+					<div class="circle">6.7</div>
+				 <div class="dish-title">
+				 	<span class="d-name">Phở Lâm -Nam Ngư</span>
+				 	<p class="addr">7 Nam Ngư, Quận Hoàn Kiếm</p>
+				 </div>
+				</div>
+				<div class="user">
+					<div class="circle">
+						<i class="far fa-user-circle"></i>
+					</div>
+					<div class="user-name">Hữu Duy</div>
+					<div class="user-like">Phở gà</div>
+				</div>
+			</div>
+
+			<div class="dish-collect">
+				<div class="dish-photo">
+					<img src="https://images.foody.vn/res/g89/886355/s400x400/foody-beominhon-shop-socola-online-239-636855007975846714.jpg" alt="Beominhon Shop - Socola Online">
+				</div>
+				<div class="ranking">
+					<div class="circle">8.2</div>
+				 <div class="dish-title">
+				 	<span class="d-name">Beominhon Shop - Socola Online</span>
+				 	<p class="addr">C4A 96 Định Công</p>
+				 </div>
+				</div>
+				<div class="user">
+					<div class="circle">
+						<img src="https://images.foody.vn/usr/g14/135451/avt/s60x60/t-pisces-avatar-590-636550692593609309.jpg" alt="user">
+					</div>
+					<div class="user-name">Thạnh</div>
+					<div class="user-like">Mochi</div>
+				</div>
+			</div>
+
+			<div class="dish-collect">
+				<div class="dish-photo">
+					<img src="https://images.foody.vn/res/g69/684494/s400x400/foody-che-ngon-vy-vy-228-636397219460750927.jpg" alt="Chè Ngon Vy Vy">
+				</div>
+				<div class="ranking">
+					<div class="circle">8.0</div>
+				 <div class="dish-title">
+				 	<span class="d-name">Chè Ngon Vy Vy</span>
+				 	<p class="addr">40 Ngõ 71 Hoàng Văn Thái, Qu</p>
+				 </div>
+				</div>
+				<div class="user">
+					<div class="circle">
+						<img src="https://images.foody.vn/usr/g200/1993953/avt/s60x60/beauty-upload-api-foody-avatar-47fc2e46-f3ee-4eb0-a32e-73a82f0eca38-191116101325.jpg">
+					</div>
+					<div class="user-name">Ngọc Anh</div>
+					<div class="user-like"> Caramen</div>
+				</div>
+			</div>
+
+			<div class="dish-collect">
+				<div class="dish-photo">
+					<img src="https://images.foody.vn/res/g22/215797/s400x400/foody-bun-pho-bo-ga-vu-ngoc-phan-386-636578445518430413.jpg">
+				</div>
+				<div class="ranking">
+					<div class="circle">7.4</div>
+				 <div class="dish-title">
+				 	<span class="d-name">Phở Lâm -Nam Ngư</span>
+				 	<p class="addr">1A Vũ Ngọc Phan, Quận Đốn</p>
+				 </div>
+				</div>
+				<div class="user">
+					<div class="circle">
+						<img src="https://images.foody.vn/usr/g132/1312074/avt/s60x60/lyk_b-avatar-365-637188297187170856.jpg">
+					</div>
+					<div class="user-name">Mai Linh</div>
+					<div class="user-like">Phở bò</div>
+				</div>
+			</div>
+
+			<div class="dish-collect">
+				<div class="dish-photo">
+					<img src="https://images.foody.vn/res/g71/706025/s400x400/foody-pop-quan-chan-ga-canh-ga-nuong-tay-son-973-636578303428090393.jpg" alt="Pop Quán - Chân Gà &">
+				</div>
+				<div class="ranking">
+					<div class="circle">6.9</div>
+				 <div class="dish-title">
+				 	<span class="d-name">Pop Quán - Chân Gà &</span>
+				 	<p class="addr">12 Ngõ 298 Tây Sơn, Quận Đố</p>
+				 </div>
+				</div>
+				<div class="user">
+					<div class="circle">
+						<img src="https://images.foody.vn/usr/g191/1900457/avt/s60x60/thanhha-le162-avatar-379-636307020305685358.jpg">
+					</div>
+					<div class="user-name">Siêu nhân</div>
+					<div class="user-like">Chân gà nướng</div>
+				</div>
+			</div>
+
+			<div class="dish-collect">
+				<div class="dish-photo">
+					<img src="https://images.foody.vn/res/g26/257667/s400x400/foody-mamma-mia-italian-restaurant-bar-837-636523410817622168.jpg" alt="Mamma Mia - Italian Restaurant">
+				</div>
+				<div class="ranking">
+					<div class="circle">7.9</div>
+				 <div class="dish-title">
+				 	<span class="d-name">Mamma Mia - Italian Res</span>
+				 	<p class="addr">2 Chương Dương Độ, Quận Ho...</p>
+				 </div>
+				</div>
+				<div class="user">
+					<div class="circle">
+						<img src="https://images.foody.vn/usr/g13/123423/avt/s60x60/foody-avatar-703-635571388702164431.jpg">
+					</div>
+					<div class="user-name">Khánh</div>
+					<div class="user-like">Pizza 1 mét</div>
+				</div>
+			</div>
+
+			<div class="dish-collect">
+				<div class="dish-photo">
+					<img src="https://images.foody.vn/res/g8/70619/s400x400/foody-chez-moi-755-635714841935764688.jpg" alt="Chez Moi - Bánh Ngọt P">
+				</div>
+				<div class="ranking">
+					<div class="circle">7.5</div>
+				 <div class="dish-title">
+				 	<span class="d-name">Chez Moi - Bánh Ngọt P</span>
+				 	<p class="addr">99 Quán Thánh, Quận Ba Đình</p>
+				 </div>
+				</div>
+				<div class="user">
+					<div class="circle">
+						<img src="https://images.foody.vn/usr/g10/95049/avt/s60x60/copy%20(4)%20of%20img_0160_635281863304116250.jpg">
+					</div>
+					<div class="user-name">Tho</div>
+					<div class="user-like">Macarons</div>
+				</div>
+			</div>
+
+			<div class="dish-collect">
+				<div class="dish-photo">
+					<img src="https://images.foody.vn/res/g3/29544/s400x400/foody-nom-mai-nga-ham-long-789-636549732591690255.jpg" alt="Phở Lâm- Nam Ngư">
+				</div>
+				<div class="ranking">
+					<div class="circle">6.7</div>
+				 <div class="dish-title">
+				 	<span class="d-name">Nộm Mai Nga - Hàm Long</span>
+				 	<p class="addr">7 Ngõ Hàm Long 1</p>
+				 </div>
+				</div>
+				<div class="user">
+					<div class="circle">
+						<img src="https://images.foody.vn/usr/g170/1696355/avt/s60x60/teamy-dbsk-avatar-464-636488023922261075.jpg">
+					</div>
+					<div class="user-name">My</div>
+					<div class="user-like">Nộm lọc</div>
+				</div>
+			</div>
+
+			<div class="dish-collect">
+				<div class="dish-photo">
+					<img src="https://images.foody.vn/res/g3/26899/s400x400/foody-pho-lam-nam-ngu-1c0a271e-d5f0-4707-8737-ee828e62d7da-635293935809301250.jpg" alt="Phở Lâm- Nam Ngư">
+				</div>
+				<div class="ranking">
+					<div class="circle">6.7</div>
+				 <div class="dish-title">
+				 	<span class="d-name">Phở Lâm -Nam Ngư</span>
+				 	<p class="addr">7 Nam Ngư, Quận Hoàn Kiếm</p>
+				 </div>
+				</div>
+				<div class="user">
+					<div class="circle">
+						<i class="far fa-user-circle"></i>
+					</div>
+					<div class="user-name">Hữu Duy</div>
+					<div class="user-like">Phở gà</div>
+				</div>
+			</div>
+
+			<div class="dish-collect">
+				<div class="dish-photo">
+					<img src="https://images.foody.vn/res/g89/886355/s400x400/foody-beominhon-shop-socola-online-239-636855007975846714.jpg" alt="Beominhon Shop - Socola Online">
+				</div>
+				<div class="ranking">
+					<div class="circle">8.2</div>
+				 <div class="dish-title">
+				 	<span class="d-name">Beominhon Shop - Socola Online</span>
+				 	<p class="addr">C4A 96 Định Công</p>
+				 </div>
+				</div>
+				<div class="user">
+					<div class="circle">
+						<img src="https://images.foody.vn/usr/g14/135451/avt/s60x60/t-pisces-avatar-590-636550692593609309.jpg" alt="user">
+					</div>
+					<div class="user-name">Thạnh</div>
+					<div class="user-like">Mochi</div>
+				</div>
+			</div>
+
+			<div class="dish-collect">
+				<div class="dish-photo">
+					<img src="https://images.foody.vn/res/g69/684494/s400x400/foody-che-ngon-vy-vy-228-636397219460750927.jpg" alt="Chè Ngon Vy Vy">
+				</div>
+				<div class="ranking">
+					<div class="circle">8.0</div>
+				 <div class="dish-title">
+				 	<span class="d-name">Chè Ngon Vy Vy</span>
+				 	<p class="addr">40 Ngõ 71 Hoàng Văn Thái, Qu</p>
+				 </div>
+				</div>
+				<div class="user">
+					<div class="circle">
+						<img src="https://images.foody.vn/usr/g200/1993953/avt/s60x60/beauty-upload-api-foody-avatar-47fc2e46-f3ee-4eb0-a32e-73a82f0eca38-191116101325.jpg">
+					</div>
+					<div class="user-name">Ngọc Anh</div>
+					<div class="user-like"> Caramen</div>
+				</div>
+			</div>
+
+			<div class="dish-collect">
+				<div class="dish-photo">
+					<img src="https://images.foody.vn/res/g22/215797/s400x400/foody-bun-pho-bo-ga-vu-ngoc-phan-386-636578445518430413.jpg">
+				</div>
+				<div class="ranking">
+					<div class="circle">7.4</div>
+				 <div class="dish-title">
+				 	<span class="d-name">Phở Lâm -Nam Ngư</span>
+				 	<p class="addr">1A Vũ Ngọc Phan, Quận Đốn</p>
+				 </div>
+				</div>
+				<div class="user">
+					<div class="circle">
+						<img src="https://images.foody.vn/usr/g132/1312074/avt/s60x60/lyk_b-avatar-365-637188297187170856.jpg">
+					</div>
+					<div class="user-name">Mai Linh</div>
+					<div class="user-like">Phở bò</div>
+				</div>
+			</div>
+
+			<div class="dish-collect">
+				<div class="dish-photo">
+					<img src="https://images.foody.vn/res/g71/706025/s400x400/foody-pop-quan-chan-ga-canh-ga-nuong-tay-son-973-636578303428090393.jpg" alt="Pop Quán - Chân Gà &">
+				</div>
+				<div class="ranking">
+					<div class="circle">6.9</div>
+				 <div class="dish-title">
+				 	<span class="d-name">Pop Quán - Chân Gà &</span>
+				 	<p class="addr">12 Ngõ 298 Tây Sơn, Quận Đố</p>
+				 </div>
+				</div>
+				<div class="user">
+					<div class="circle">
+						<img src="https://images.foody.vn/usr/g191/1900457/avt/s60x60/thanhha-le162-avatar-379-636307020305685358.jpg">
+					</div>
+					<div class="user-name">Siêu nhân</div>
+					<div class="user-like">Chân gà nướng</div>
+				</div>
+			</div>
+
+			<div class="dish-collect">
+				<div class="dish-photo">
+					<img src="https://images.foody.vn/res/g26/257667/s400x400/foody-mamma-mia-italian-restaurant-bar-837-636523410817622168.jpg" alt="Mamma Mia - Italian Restaurant">
+				</div>
+				<div class="ranking">
+					<div class="circle">7.9</div>
+				 <div class="dish-title">
+				 	<span class="d-name">Mamma Mia - Italian Res</span>
+				 	<p class="addr">2 Chương Dương Độ, Quận Ho...</p>
+				 </div>
+				</div>
+				<div class="user">
+					<div class="circle">
+						<img src="https://images.foody.vn/usr/g13/123423/avt/s60x60/foody-avatar-703-635571388702164431.jpg">
+					</div>
+					<div class="user-name">Khánh</div>
+					<div class="user-like">Pizza 1 mét</div>
+				</div>
+			</div>
+
+			<div class="dish-collect">
+				<div class="dish-photo">
+					<img src="https://images.foody.vn/res/g8/70619/s400x400/foody-chez-moi-755-635714841935764688.jpg" alt="Chez Moi - Bánh Ngọt P">
+				</div>
+				<div class="ranking">
+					<div class="circle">7.5</div>
+				 <div class="dish-title">
+				 	<span class="d-name">Chez Moi - Bánh Ngọt P</span>
+				 	<p class="addr">99 Quán Thánh, Quận Ba Đình</p>
+				 </div>
+				</div>
+				<div class="user">
+					<div class="circle">
+						<img src="https://images.foody.vn/usr/g10/95049/avt/s60x60/copy%20(4)%20of%20img_0160_635281863304116250.jpg">
+					</div>
+					<div class="user-name">Tho</div>
+					<div class="user-like">Macarons</div>
+				</div>
+			</div>
+
+			<div class="dish-collect">
+				<div class="dish-photo">
+					<img src="https://images.foody.vn/res/g3/29544/s400x400/foody-nom-mai-nga-ham-long-789-636549732591690255.jpg" alt="Phở Lâm- Nam Ngư">
+				</div>
+				<div class="ranking">
+					<div class="circle">6.7</div>
+				 <div class="dish-title">
+				 	<span class="d-name">Nộm Mai Nga - Hàm Long</span>
+				 	<p class="addr">7 Ngõ Hàm Long 1</p>
+				 </div>
+				</div>
+				<div class="user">
+					<div class="circle">
+						<img src="https://images.foody.vn/usr/g170/1696355/avt/s60x60/teamy-dbsk-avatar-464-636488023922261075.jpg">
+					</div>
+					<div class="user-name">My</div>
+					<div class="user-like">Nộm lọc</div>
+				</div>
+			</div>
+			<input class="btn-show-more" type="button" value="Xem thêm">
+		</div>
+	</div>
 	<!-- code above -->
 	    <script src="./index.js"></script>
 		<script src="https://kit.fontawesome.com/ebe11e25b9.js" crossorigin="anonymous"></script>

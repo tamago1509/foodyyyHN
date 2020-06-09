@@ -231,6 +231,102 @@
 @media only screen and (max-width: 300px){
   .text {font-size: 11px}
 }
+
+/*start deal ưu đãi*/
+.nav-menu2{
+  display: flex;
+  border:1px solid #eee;
+  height: 50px;
+}
+.title{
+  height: 100%;
+  
+}
+.uu-dai{
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 20px;
+}
+.danh-muc, .noi-bat{
+  margin-right: 5px;
+  height: 30px;
+  border: 1px solid #eee;
+
+}
+.danh-muc option, .noi-bat option{
+  border: 1px solid #eee;
+}
+.avatar img{
+  height: 50px;
+  width: 70px;
+}
+
+.message{
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-left: 20px;
+}
+
+.dish{
+  display: flex;
+  background-color: rgba(217, 211, 210,0.4);
+  flex-wrap: wrap;
+
+}
+.dish-wrapper{
+  margin: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+
+}
+.dish-img{
+  width: 227px;
+  border-bottom: 1px solid #888;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dish-img img{
+  height: 142px;
+  width: 227px;
+}
+.dish-name{
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.dish-img > .dish-info, .dish-tag > span{
+  text-decoration: none;
+  color: #000;
+  margin-left: 10px;
+  margin-bottom: 5px;
+} 
+.dish-address, .dish-tag p{
+  font-size: 0.8em;
+  color: #666;
+}
+.fa-tag{
+  color:#f00;
+  font-size: 0.8em;
+  margin: 10px 0px 10px 5px ;
+}
+.dish-tag{
+  margin-top: 5px;
+  padding-bottom: 20px;
+  margin-left: 0px;
+}
+.dish-tag p{
+  margin-top: 0px;
+  padding-left: 10px;
+}
+img.rate{
+  height: 15px;
+  width: 20px;
+  padding-right: 3px;
+}
 /*start today Deal*/
 .deliver-wrapper{
 	
@@ -256,7 +352,7 @@
 .options{
   display: flex;
 }
-.options li,.more li{
+.options li{
   list-style: none;
 }
 .message{
@@ -266,43 +362,21 @@
   font-size: 1.5em;
   margin-left: 20px;
 }
-.options a, .more a{
+.options a{
   text-decoration: none;
   color: #000;
   margin-right: 10px;
 }
 .show-more{
-  position: relative;
-
+  border: 1px solid #eee;
+  height: 30px;
+  border-radius: 5px
 }
+
 .list-category{
   display: none;
   padding: 0;
   position: absolute;
-}
-.show-more:hover{
-  color: grey;
-}
-.show-more:hover + .list-category{
-  display: block;
-  
-}
-/*.show-more:hover .list-category li{
-  background-color: #eee;
-  
-}*/
-
-.list-category li{
-  height: 30px;
-  background-color: #eee;
-  border: 1px solid #999;
-  border-top: none;
-  width:  150px;
-  border-radius: 2px;
-  text-align: center;
-  padding-top: 5px;
-  color:#ddd;
-
 }
 
 a.deal-active{
@@ -356,4 +430,151 @@ img.rate{
   height: 15px;
   width: 20px;
   padding-right: 3px;
+}
+/*start discovery*/
+.discovery-wrapper{
+  display: grid;
+  grid-template-columns: repeat(5, 230px);
+  background-color: rgba(217, 211, 210,0.4);
+  padding-top: 20px;
+  margin:10px 30px;
+}
+
+
+.kham-pha{
+  display: flex;
+  flex-direction: column;
+  grid-area: 1/1;
+  width: 200px;
+  margin-left: 20px;
+  background-color: #fff;
+  position: sticky;
+  top:0;
+}
+.kham-pha a{
+  text-decoration: none;
+  color:#666;
+  height: 30px;
+  padding: 8px 0px 0px 20px;
+  display: flex;
+}
+.kham-pha a:hover{
+  color: #d14a43;
+  background-color: rgba(217, 186, 213,0.2);
+}
+.first{
+  display: flex;
+}
+.first span{
+  align-self: flex-end;
+  margin-left: 5px;
+}
+.first img{
+  height: 30px;
+  width: 30px;
+}
+.kham-pha span{
+  flex-grow: 1;
+}
+.kham-pha i{
+  padding-right: 15px;
+}
+.first > span{
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.x-nav{
+  display: flex;
+  height: 50px;
+  background-color: #cccaca;
+  grid-area: 1 /2 /span 1/span 5;
+  position: sticky;
+  top:0;
+}
+.cover{
+  width: 90px;
+  height: 50px;
+  background-color: #cccaca;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+.cover a{
+  color:#555;
+}
+.cover:hover, .active{
+  background-color: #fff;
+  color: #f00;
+  border-bottom: 1.5px solid #d14a43;
+}
+.cover:hover > a{
+  color: #d14a43;
+}
+.x-nav a{
+ text-decoration: none;
+ 
+ 
+}
+.main-dish{
+  background-color: rgba(217, 211, 210,0.4);
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  justify-content: center;
+  grid-area: 1/2/ span 1/span 5;
+
+}
+.dish-collect{
+  width: 226px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  margin:5px;
+
+}
+.ranking, .user{
+  display: flex;
+  padding: 10px;
+}
+.circle, .circle img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #1ca31e;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+.dish-title{
+  margin: 5px 10px;
+}
+.d-name, .user-name{
+  font-weight: bold;
+}
+.addr, .user-like{
+  margin: 2px 5px;
+  color: #666;
+  font-size: .9em;
+}
+.dish-photo img{
+  width: 226px;
+  height: 226px;
+}
+.user-name, .user-like{
+  margin: 5px 10px ;
+}
+
+.btn-show-more{
+  background-color: #1c7fa3;
+  border-radius: 3px;
+  height: 40px;
+  border: none;
+  margin: 10px;
+  display: block;
+  color: #fff;
+  width: 100%;
 }
